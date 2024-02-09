@@ -116,3 +116,37 @@
     padding: 5px;
     border-radius: 16px;
   }
+
+
+.container-about-me{
+  display: flex;
+  justify-content: space-between;
+  padding: 30px 80px;
+
+}
+
+  
+.container-about-me > div>img{
+      width: 300px;
+      height: 300px;
+      border-radius: 50%;
+    
+    }
+  
+
+
+  .mb-20{
+    margin-bottom: 20px;
+  }
+
+  .mt-20{
+    margin-top: 20px;
+  }
+
+  .container-about-me>div>h2{
+    font-size: 48px;
+  }
+
+  .container-about-me>div>p{
+    color: rgba(255,255,255,0.5);
+  }
