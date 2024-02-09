@@ -43,7 +43,7 @@
   }
 
   main{
-    border: solid red;
+   
     height: 50vh;
     display: flex;
     justify-content: space-between;
@@ -53,11 +53,66 @@
 
   }
 
+  .title{
+    font-size:52px ;
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+
   .gretting{
     background-color: rgba(123, 74, 226, 0.05) ;
-    color: rgb(123,74,226);
+    color: rgba(123,74,226,0.5);
     padding: 8px;
     border-radius: 16px;
-    margin-bottom: 10px;
 
+
+  }
+
+  .description{
+    font-size: 20px;
+    color:rgba(255,255,255,0.5);
+    font-weight: 300;
+    margin-bottom: 20px;
+
+  }
+
+  .social-links{
+    display: flex;
+    gap:15px;
+    align-items: center;
+  }
+  
+  .container-profile > img {
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+  }
+
+  .container-contact{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: end;
+  }
+
+  .container-contact>a{
+    text-decoration: none;
+    color:rgba(123,74,226,0.5);
+
+  }
+
+  .container-contact > a:first-child{
+    display: flex;
+    align-items: center;
+    gap :5px;
+  }
+
+
+  .container-contact > a:last-child{
+    border:rgba(123,74,226,0.5) solid;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    padding: 5px;
+    border-radius: 16px;
   }
