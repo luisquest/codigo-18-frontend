@@ -34,7 +34,7 @@ nav ul{
     text-align: center;
     vertical-align: top;
     width: 50%;
-    padding-top: 13px;
+    padding-top: 18px;
 
 
 }
@@ -44,7 +44,7 @@ nav li{
     
 }
 nav li a{
-    font-size: 12px;
+    font-size: 14px;
     text-decoration: none;
     padding: 10px;
     color: #ffffff;
