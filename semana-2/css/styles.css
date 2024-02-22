@@ -1,0 +1,140 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Space Mono", monospace;
+  font-weight: bold;
+  background-color: #c3e3e6;
+}
+
+input,
+button {
+  font-family: "Space Mono", monospace;
+  font-weight: bold;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  gap: 50px;
+}
+
+form {
+  display: flex;
+  background-color: #fff;
+  padding: 40px;
+  border-radius: 16px;
+  gap: 30px;
+  width: 800px;
+}
+
+form > div {
+  flex: 1;
+}
+
+.container-input {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px;
+  border-radius: 8px;
+  background-color: #f3f8fb;
+}
+
+.container-input > input {
+  border: none;
+  outline: none;
+  text-align: right;
+  background-color: transparent;
+}
+
+.text-title {
+  font-size: 14px;
+  color: #717978;
+  display: block;
+  margin-bottom: 10px;
+  margin-top: 10px;
+}
+
+.container-percentage {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 4.9%;
+}
+
+.container-percentage > * {
+  width: 30%;
+  margin-bottom: 4.9%;
+}
+
+.container-percentage > button {
+  background-color: #00474b;
+  color: #fff;
+  border: none;
+  padding: 10px;
+  font-size: 18px;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+
+
+.container-details{
+  background-color: #00474b;
+  border-radius: 16px;
+  padding:30px 40px;
+  color: white;
+  font-size: 13px;
+}
+
+.container-details > div{
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+
+.container-details > div>div{
+  display: flex;
+  justify-content: space-between;
+}
+
+.container-details > div >div{
+  display: flex;
+  align-items: center;
+}
+
+.container-details>div>div>div>p:last-child{
+  font-size: 40px;
+  color:rgba(79, 233, 194, 0.671);
+}
+
+.container-details>div>div>div>span:last-child{
+  font-size: 9px;
+  color: rgba(255,255,255,0.5);
+  display: block;
+  font-weight: 200;
+}
+
+.container-details>div>div:last-child{
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: end;
+}
+
+.container-details>div>div>button{
+  width: 100%;
+  padding: 5px;
+  background-color: rgba(79, 233, 194, 0.671);
+  border-style: none;
+  border-radius: 5px;
+  color:#00474b;
+  font-size: 18px;
+}
+

@@ -1,0 +1,91 @@
+* {
+    margin: 0;
+    padding: 0;
+
+  }
+
+  body{
+   
+background-color: rgb(241, 242, 231);
+display: flex;
+justify-content: center;
+height: 100vh;
+align-items: center;
+    }
+
+  .container-card{
+    display: flex;
+    background-color: white;
+    height: 600px;
+    width:800px;
+    border-radius: 15px;
+  }
+
+  .content-image{
+   
+    background: url(../images/image-product-desktop.jpg);
+    width: 400px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 15px 0px 0px 15px;
+   
+    }
+
+
+
+    
+    .content-info{
+        padding: 40px;
+        width: 400px;
+    }
+
+    .content-info>h3{
+        text-transform: uppercase;
+        padding-bottom: 25px;
+        color: gray;
+        letter-spacing: 0.3em;
+    }
+    
+    .content-info>h1{
+        letter-spacing: -0.05em;
+        font-size: 48px;
+    }
+    
+    .content-info>p{
+        
+            padding-top: 25px;
+            letter-spacing: 0.2em;
+            text-align: justify;
+            padding-bottom: 30px;
+        }
+        
+        .content-price{
+            display: flex;
+            align-items:center;
+        }
+        .content-price >span:first-child{
+            color:  rgb(17, 74, 42);
+            font-size: 50px;
+           
+            font-weight: bold;
+        }
+        .content-price >span:last-child{
+            color: gray;
+            font-size: 20px;
+            
+            padding-left: 20px;
+            font-weight: bold;
+        }
+
+    
+
+        .content-info>button{
+           margin-top:50px ;
+          height: 50px;
+            width: 100%;
+            border-radius: 15px;
+            background-color: rgb(17, 74, 42);
+            color  : white;
+            font-weight: bold;
+            border-style: none;
+        }

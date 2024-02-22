@@ -1,0 +1,152 @@
+@font-face {
+    font-family: 'Ubuntu';
+    src: url('../assets/fonts/Ubuntu-Bold.ttf');
+}
+
+@font-face {
+    font-family: 'Ubuntu-Medium';
+    src: url('../assets/fonts/Ubuntu-Medium.ttf');
+}
+
+@font-face {
+    font-family: 'Ubuntu-Regular';
+    src: url('../assets/fonts/Ubuntu-Regular.ttf');
+}
+
+
+* {
+    margin: 0;
+    padding: 0;
+
+  }
+  
+  body {
+    font-family: "Ubuntu", sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: rgba(98, 167, 197, 0.489);
+}
+  
+  .container-ficha{
+
+    display: flex;
+  background-color: white;
+    width: 1000px;
+    height: 700px;
+    border-radius: 15px;
+
+  }
+
+  .container-pasos{
+  
+    margin :10px;
+    border-radius: 10px;
+    width:300px;
+    background: url(../assets/images/bg-sidebar-desktop.svg);
+    background-repeat:no-repeat;
+    background-size: cover;
+    
+    }
+
+    .container-pasos > div{
+      
+       border-radius: 50%;
+        display: flex;
+        padding-left: 40px;
+        margin-top: 50px;
+        align-items: center;
+        
+        }
+   
+        .container-pasos > div>div:first-child{
+           
+            background-color: white;
+           border-radius: 50%;
+            width: 50px;
+            height: 50px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+           
+            }
+
+            .container-pasos > div>div:last-child{              
+                padding-left: 20px;
+                       
+                }
+
+            
+            .container-pasos > div>div>h3{
+                color:rgba(193, 193, 193, 0.701);
+                font-size: 14px;
+                text-transform: uppercase;
+                font-family: 'Ubuntu';
+                }
+
+                .container-pasos > div>div>p{
+                    color:rgb(255, 255, 255);
+                    font-size: 18px;
+                    text-transform: uppercase;
+                    padding-top: 5px;
+                    }
+       
+
+
+    .container-datos{
+        display: flex;
+        flex-direction: column;
+        padding-left: 70px;
+      
+      
+    }
+    .container-datos>input{
+
+        border-radius:5px ;
+        height: 40px;
+        margin-top: 10px;
+    }
+
+    .container-datos >h2{
+        font-size: 50px;
+        color:rgb(5, 48, 156);
+        padding-top: 50px;
+        
+    }
+
+    .container-datos >p{
+       
+        padding-bottom: 20px;
+        color: rgba(128, 128, 128, 0.42);
+        font-family: 'Ubuntu-Medium';
+       
+        
+    }
+
+    .container-datos >label{
+        font-weight: bold;
+        color:rgb(5, 48, 156);
+        margin-top: 20px;
+    }
+  
+    
+
+    .container-datos >div>button{
+        background: rgb(5, 48, 156);
+        font-weight: bold;
+        color: white;
+      
+        width: 30%;
+        height: 40px;
+        border-style: none;
+        border-radius: 10px;
+        margin-top: 70px;
+        margin-left: 70%;
+        
+        
+    }
+
+
+
+    
