@@ -1,0 +1,25 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+nav{
+    height: 10vh;
+    background-color: red;
+  }
+
+  section{
+    height: 90vh;
+  }
+
+  .trapecio {
+   
+        width: 200px;
+        height: 0px;
+        border-top: solid 0px transparent;
+        border-right: solid 50px transparent;
+        border-bottom: solid 100px #FF00FF;
+        border-left: solid 50px transparent;
+    
+}
